@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo-input {
+    display: flex;
+    box-shadow: 2px 2px 5px grey;
+    background-color: lightgreen;
+}
+
+#todo-input input {
+    padding: 0.5em 2em;
+}
+
+#submit-btn input{
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    height: 2.6em;
+    background: linear-gradient(100deg, rgb(207, 115, 28), transparent);
+}
+
+#title {
+    color: rgb(207, 115, 28);
+    font-size: 3em;
+    text-shadow: 2px 4px 5px rgb(207, 115, 28);
+}
+
+h2 {
+    text-align: center;
+    display: block;
+    text-decoration: underline 2px;
+}
+
+b {
+    margin-right: 0.4em;
+}
+
+.item {
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px grey;
+    position: relative;
+    right: 15%;
+}
+
+.item div {
+    display: flex;
+    align-items: center;
+    padding: 0.1em 1em;
+}
+
+.item div button{
+    margin-right: 0.6em;
+    cursor: pointer;
+    padding: 2px;
+    background: transparent;
+    border: none;
+}
+
+.item div button:hover,.item div button:active {
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 3px;
+}
